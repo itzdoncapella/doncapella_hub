@@ -1,0 +1,43 @@
+/* This targets the whole page */
+body {
+    background-color: #121212; /* Dark theme to match Mint */
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* This styles your name */
+h1 {
+    color: #ffcc00; /* Gold color like your logo */
+}
+
+/* This makes the image a nice circle */
+img {
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+    margin-top: 20px;
+}
+/* Styling the links to look like buttons */
+.btn {
+    display: block;
+    width: 220px;
+    background-color: transparent;
+    color: #ffcc00; /* Matching your gold logo */
+    border: 2px solid #ffcc00;
+    padding: 12px;
+    margin: 15px auto; /* Centers the buttons */
+    text-decoration: none; /* Removes the underline */
+    font-weight: bold;
+    border-radius: 50px; /* Makes them pill-shaped */
+    transition: 0.3s ease; /* Makes the hover effect smooth */
+}
+
+/* The Hover Effect: This happens when your mouse touches the button */
+.btn:hover {
+    background-color: #ffcc00; /* Fills the button with gold */
+    color: #121212; /* Turns the text dark */
+    transform: scale(1.1); /* Makes the button slightly bigger */
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.6); /* Adds a glow */
+    cursor: pointer;
+}
